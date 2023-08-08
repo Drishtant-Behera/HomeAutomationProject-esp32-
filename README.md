@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-This repository provides the code and documentation for a 4-channel relay module controlled by an ESP32 microcontroller and managed via a server-based interface. The ESP32 is a powerful Wi-Fi and Bluetooth-enabled microcontroller, allowing remote control and automation of various devices using relays. The relay module allows you to switch high-voltage appliances, lights, motors, and other electrical devices on and off safely. By connecting the ESP32 to a local server, you can control the relays conveniently from a web-based interface or even integrate it into your own smart home automation system.
+This repository provides the code and documentation for a relay module controlled by an ESP32 microcontroller and managed via a server-based interface. The ESP32 is a powerful Wi-Fi and Bluetooth-enabled microcontroller, allowing remote control and automation of various devices using relays. The relay module allows you to switch high-voltage appliances, lights, motors, and other electrical devices on and off safely. By connecting the ESP32 to a local server, you can control the relays conveniently from a web-based interface or even integrate it into your own smart home automation system.
 
 ## **Features**
 
