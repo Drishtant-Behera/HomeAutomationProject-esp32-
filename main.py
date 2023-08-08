@@ -1,7 +1,7 @@
-#Type your wifi name and pasword with caution dont let anyone see
+#Type your wifi ncredentials with caution, dont let anyone see :)
 
-ssid = "INSERT YOUR WIFI NAME HERE"
-password = "INSERRT YOUR PASWORD HERE"
+ssid = "YOUR WIFI"
+password = "YOUR PASWORD"
 
 
 #Attaching pins to relays
@@ -69,29 +69,27 @@ def web_page():
 #Setting the layout of the web page
 
     html_page = """   
-      <html>   
+<html>   
       <head>   
        <meta content="width=device-width, initial-scale=1" name="viewport"></meta>   
       </head>   
       <body>   
         <center><h2>ESP32 Web Server in MicroPython </h2></center>   
-        <center>   
-         <form>   
-          <button name="RELAY1" type="submit" value="1"> RELAY1 OFF </button>   
-          <button name="RELAY1" type="submit" value="0"> RELAY1 ON </button>
-          <button name="RELAY2" type="submit" value="1"> RELAY2 OFF </button>   
-          <button name="RELAY2" type="submit" value="0"> RELAY2 ON </button>
-          <button name="RELAY3" type="submit" value="1"> RELAY3 OFF </button>   
-          <button name="RELAY3" type="submit" value="0"> RELAY3 ON </button>
-          <button name="RELAY4" type="submit" value="1"> RELAY4 OFF </button>   
-          <button name="RELAY4" type="submit" value="0"> RELAY4 ON </button> 
-         </form>   
+        <center>
+        <center><button name="RELAY1" type="submit" value="1"> RELAY1 OFF </button><button name="RELAY1" type="submit" value="0"> RELAY1 ON </button>
+        <center>
+        <center><button name="RELAY2" type="submit" value="1"> RELAY2 OFF </button> <button name="RELAY2" type="submit" value="0"> RELAY2 ON </button>
+        <center>
+        <center><button name="RELAY3" type="submit" value="1"> RELAY3 OFF </button><button name="RELAY3" type="submit" value="0"> RELAY3 ON </button>
+        <center>
+        <center><button name="RELAY4" type="submit" value="1"> RELAY4 OFF </button><button name="RELAY4" type="submit" value="0"> RELAY4 ON </button>      
+        <center> 
         </center>   
         <center><p>RELAY1 is now <strong>""" + relay1_state + """</strong>.</p></center>
         <center><p>RELAY2 is now <strong>""" + relay2_state + """</strong>.</p></center>
         <center><p>RELAY3 is now <strong>""" + relay3_state + """</strong>.</p></center>
         <center><p>RELAY4 is now <strong>""" + relay4_state + """</strong>.</p></center>
-      </body>   
+      </body>
       </html>"""  
     return html_page
 
