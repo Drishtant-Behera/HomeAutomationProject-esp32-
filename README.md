@@ -1,4 +1,4 @@
-# 4-Channel Relay with Server Control on ESP32 - README
+# Relays with Server Control on ESP32 - README
 
 ## **Introduction**
 
@@ -6,7 +6,7 @@ This repository provides the code and documentation for a 4-channel relay module
 
 ## **Features**
 
-**4-Channel Relay Control:** The ESP32 drives a 4-channel relay module, allowing you to control up to four separate electrical devices independently.
+**Any Amount of Channel Relay Control:** The ESP32 drives a different channels of relays, allowing you to control up to 16 separate electrical devices independently. You can edit the amount of relays by adding another line to the html code.
 
 **Server-Based Control:** The ESP32 connects to a local server using Wi-Fi, enabling remote control of the relays from any device with a web browser and access to the server.
 
